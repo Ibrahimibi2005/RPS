@@ -55,3 +55,44 @@ h6{
     bottom:10px;
     right: 20px;
 }
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    #game {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        left: 0;
+        top: 40px;
+    }
+
+    img {
+        width: 150px;
+        height: 150px;
+    }
+
+    #verses {
+        top: 20px;
+        margin: 10px 0;
+    }
+
+    .btn {
+        top: 60px;
+        width: 60px;
+        height: 60px;
+        margin: 10px 5px;
+        font-size: 14px;
+    }
+
+    #Player1, #Player2 {
+        transform: rotate(0deg);
+    }
+
+    h6 {
+        position: static;
+        text-align: center;
+        margin-top: 20px;
+    }
+}
