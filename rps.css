@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    border: 0;
+}
+body{
+    text-align:center;
+    background-color: blanchedalmond ;
+  font-family: "Fuzzy Bubbles", sans-serif;
+  color:rgb(190, 62, 62)
+}
+img{
+    width:250px;
+    height:250px;
+}
+#game{
+    display: flex;
+    width: 600px;
+    position:relative;
+    left:395px;
+    top:80px;
+}
+#verses{
+    position: relative;
+    top: 150px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.btn{
+    position:relative;
+    top:150px;
+    left:10px;
+    border-radius: 10px;
+    height: 80px;
+    width: 50px;
+    margin-right:10px;
+    background-color:rgb(190, 62, 62);
+    color:antiquewhite
+}
+#Player1{
+    transform: rotate(90deg);
+}
+#Player2{
+    transform: rotate(-90deg);
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(218, 9, 9);
+}
+.bton{
+    height: 40px;
+    width: 40px;
+}
+h6{
+    position:absolute;
+    bottom:10px;
+    right: 20px;
+}
